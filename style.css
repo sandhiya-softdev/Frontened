@@ -1,0 +1,41 @@
+.northkorea{
+    background-color:goldenrod;color: black;
+    font-size:15px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;;
+
+}
+.note{
+    color: darkolivegreen;
+    font-size: 80px;
+}
+
+
+#Maincity{
+    background-color:goldenrod;color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px;
+    padding: 20px;
+}
+
+#cities{
+     background-color: peru;color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px;
+    padding: 20px;
+}
+.city{
+   background-color:goldenrod;color: black;
+    font-size:15px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;;
+  
+}
+}
+
