@@ -37,5 +37,39 @@
     border: 2px solid black;;
   
 }
-}
+
+ #link-color:link {
+        color: purple;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      #link-color:visited {
+        color: hotpink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      #link-color:hover {
+        color: palegreen;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      #link-color:active {
+        color: gray;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      .link-button{
+        background-color: blue;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      .link-button:hover
+      .link-button:active{
+        background-color: black;
+      }
+
+
 
