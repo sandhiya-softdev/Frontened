@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- what is forms
+     HTML forms enable the collection and submission of user input, such as text,
+     selections, files, etc
+     why we use forms
+     interactivity
+     functionality
+     customization-->
+     <form action="/submit" method="post">
+        <!-- text, password, email, url, tel,... -->
+    <label for="username">username:</label>
+    <input type="text" id="username" name="username" placeholder="enter username" required></input>
+    <br>
+    <lable for="password">password:</lable>
+    <input type="text" id="password" name="password" placeholder="Enter password" required></input>
+    <br>
+    <label for="email">email:</label>
+    <input type="email" id="email" name="email"  placeholder="www.example.com" required></input>
+    <br>
+    <label for="phone">phone</label>
+    <input type="phone" id="phone" name="phone" placeholder="123-456-7890" required></input>
+    <br>
+    <label for="search">search:</label>
+    <input type="search" id="search" name="search" placeholder="search.." required></input>
+    <br>
+    <label for="birthday">birthday</label>
+    <input type="date" id="birthday" name="birthday">
+    <br>
+    <label for="appointment time">appointment time</label>
+    <input type="time" id="appointment" name="appointment">
+    <br>
+    <label for="week">week:</label>
+    <input type="week" id="week" name="week">
+    <br>
+    <lable for="month">month:</lable>
+    <input for="month" id="month" name="month">
+    <br>
+    <lable for="quanity">quanity:</lable>
+    <input type="number" id="quanity" name="quanity" placeholder="enter a number" min="1" max="100"></input>
+    <br>
+    <label for="volume">volume:</label>
+    <input type="range" id="volume" name="volume" min="0" max="100"></input>
+    <br>
+    <label for="favourite color">favourite color</label>
+    <input type="color" id="favourite color" name="favourtie color"></input>
+    <br>
+    <label for="avatar">upload avatar</label>
+    <input type="file" id="avatar" name="avatar">
+    <br>
+    <label><input type="checkbox" name="subscribe" checked> subscribe</label>
+    <br>
+    <label>genger: </label>
+    <lable><input type="radio" name="gender" value="male">male</lable>
+    <label><input type="radio" name="gender" value="female">female</label>
+    <br>
+    
+    <label for="comments">comments:</label>
+    <textarea if="comments" name="comments" placeholder="enter your comments"></textarea>
+    <br>
+    <label for="country">country:</label>
+    <select id="country" name="country">
+        <option value="us">USA</option>
+        <option value="us">UP</option>
+        <option value="us">UK</option>
+    </select>
+
+
+<label for="browser">Browser:</label>
+<input list="browsers" id="browser" name="browser" aria-placeholder="choose browser">
+<datalist id=" browsers">
+    <option value="chrome">
+        <option value="firefox">
+            
+        </datalist>
+    </form>
+</body>
+</html>
